@@ -19,7 +19,7 @@ A lightweight, standalone batch processing framework designed to reverse-enginee
 To use this tool, organize your local working directory exactly like this:
 
 ```text
-📁 LCUEXTRACT/
+LCUEXTRACT/
 │
 ├── Extract.cmd            <-- The main execution script
 │
@@ -47,12 +47,12 @@ Once the process finishes, the script prints out your custom installation comman
 
 * **If you chose NOT to compress (Loose Files):**
   ```cmd
-  Dism.exe /Online /add-package /packagepath:"C:\LCUEXTRACT\LCUEXT\[FolderName]\update.mum"
+  Dism.exe /Online /Add-Package /PackagePath:"C:\LCUEXTRACT\LCUEXT\[FolderName]\update.mum"
   ```
 
 * **If you chose to compress (ESD Package):**
   ```cmd
-  Dism.exe /Online /add-package /packagepath:"C:\LCUEXTRACT\LCURPK\[PackageName].esd"
+  Dism.exe /Online /Add-Package /PackagePath:"C:\LCUEXTRACT\LCURPK\[PackageName].esd"
   ```
 
 ## Credits & Tooling Dependencies
